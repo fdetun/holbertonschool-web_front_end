@@ -1,0 +1,14 @@
+/* My style */
+
+@mixin mixi($var) {
+    margin-left: $var;
+    margin-right: $var;
+}
+
+body {
+    @include mixi(10px);
+}
+
+div {
+    @include mixi(15px);
+}
