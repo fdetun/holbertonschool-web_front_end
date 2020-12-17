@@ -1,0 +1,16 @@
+/* My style */
+
+$var: #3D3D3D;
+$secondcolor: #6D6D6D;
+body {
+    color: $var;
+    background-color: $secondcolor;
+}
+
+p {
+    color: $var;
+}
+
+h2 {
+    background-color: $secondcolor;
+}
