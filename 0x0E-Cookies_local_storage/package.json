@@ -1,0 +1,29 @@
+{
+    "name": "package.json",
+    "version": "1.0.0",
+    "description": "holberton",
+    "main": "index.js",
+    "dependencies": {
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2",
+        "webpack": "^5.24.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node_modules/.bin/webpack-dev-server",
+        "start": "node_modules/.bin/webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fdetun/holbertonschool-web_front_end.git"
+    },
+    "keywords": [
+        "js"
+    ],
+    "author": "foued lamine",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fdetun/holbertonschool-web_front_end/issues"
+    },
+    "homepage": "https://github.com/fdetun/holbertonschool-web_front_end#readme"
+}
